@@ -1,0 +1,39 @@
+.welcomeSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcomeTitle {
+  color: #000;
+  font: 700 64px/1 Inter, sans-serif;
+  margin-bottom: 20px;
+}
+
+.welcomeSubtitle {
+  color: #000;
+  text-align: center;
+  font: 700 55px/1 Inter, sans-serif;
+  margin-bottom: 27px;
+}
+
+.userTypeContainer {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .welcomeTitle {
+    font-size: 40px;
+  }
+
+  .welcomeSubtitle {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+
+  .userTypeContainer {
+    flex-direction: column;
+  }
+}
